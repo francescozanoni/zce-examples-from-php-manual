@@ -1,9 +1,11 @@
 <?php
 declare(strict_types=1);
 
+require_once __DIR__ . "/../vendor/autoload.php";
+
 // #####################################################################################################################
 
-$temporaryPath = __DIR__ . "/storage";
+$temporaryPath = __DIR__ . "/../storage";
 $reportFilePathSer = $temporaryPath . "/report.ser";
 $reportFilePath = $temporaryPath . "/report.sqlite";
 
