@@ -1,0 +1,28 @@
+{
+  "name": "francescozanoni/zce-examples-from-php-manual",
+  "description": "PHP example extractor from PHP manual for ZCE exam",
+  "keywords": [
+    "zce",
+    "php",
+    "examples"
+  ],
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Francesco Zanoni",
+      "email": "francescozanoni81@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "ext-libxml": "*",
+    "ext-dom": "*",
+    "ext-PDO": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fz_\\": "src/"
+    }
+  }
+}
